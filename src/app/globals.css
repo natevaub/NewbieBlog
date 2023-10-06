@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~font-awesome/css/font-awesome.min.css';
+
+:root {
+	background-color: grey;
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
