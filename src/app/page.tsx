@@ -1,9 +1,20 @@
-import Image from 'next/image'
+"use client";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+import { useState, useEffect } from "react";
+import clsx from "clsx";
+import Link from "next/link";
+
+// Control + Shift + I to format
+
+export default function Page() {
 	
-    </main>
-  )
+
+  return (
+	
+
+      <div className="text-white flex-grow">ARTICLES</div>
+
+
+
+  );
 }

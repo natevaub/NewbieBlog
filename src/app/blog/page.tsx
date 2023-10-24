@@ -1,9 +1,9 @@
-export default function () {
+export default function BlogPage () {
 	return <div className="flex gap-4 flex-wrap p-4  justify-center">
 		{[...Array(100)].map((x, i) =>
 		<a href={`/blog/${i}`} target="_blank">
 			<div className="p-10 shadow-xl rounded-lg w-[500px] flex flex-col gap-3 hover:-translate-y-3 cursor-pointer transition-all ease-in-out duration-300">
-				<p className="text-3xl">
+				<p className="text-3xl text-white">
 					Title {i}
 				</p>
 
